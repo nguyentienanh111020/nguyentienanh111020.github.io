@@ -1,0 +1,31 @@
+.title {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.row {
+  display: flex;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+.column {
+  -ms-flex: 33%;
+  flex: 33%;
+}
+
+.product-name {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+img {
+  border-radius: 50%;
+}
