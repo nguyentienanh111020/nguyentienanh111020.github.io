@@ -1,3 +1,6 @@
+* {
+  padding: 0;
+}
 .title {
   font-size: 50px;
   text-align: center;
@@ -9,10 +12,6 @@
   text-decoration: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   list-style-type: none;
 }
@@ -21,11 +20,21 @@ ul {
   flex: 33%;
 }
 
-.first.column {
-  padding-left: 100px;
-}
 .product-name {
   font-size: 20px;
   text-align: center;
   padding-top: 10px;
+}
+
+.column {
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  border-radius: 1%;
+}
+
+img:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 33);
 }
