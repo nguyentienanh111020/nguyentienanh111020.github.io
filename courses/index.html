@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ôn tập layout</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="#">Trang chủ </a></li>
+        <i
+          class="fas fa-chevron-right"
+          style="font-size: 0.6rem; padding: 0 1rem"
+        ></i>
+        <li><a href="#">Lịch khai giảng</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="item">
+          <div class="left">
+            <div class="year bg-red">2022</div>
+
+            <div class="date bg-orange">
+              <div class="date-day">21</div>
+              <div class="date-month">Tháng 5</div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="course-name">Lộ trình đào tạo DevOps</div>
+
+            <div class="schedule">
+              <div class="day">
+                <i class="fa-solid fa-calendar-days"></i> Thứ 3 , 7
+              </div>
+
+              <div class="time"><i class="fas fa-clock"></i> 18:30 - 21:00</div>
+
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i> Cơ sở Tố Hữu
+              </div>
+            </div>
+
+            <div class="register">Đăng ký</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left">
+            <div class="year" style="background-color: #2682f2">2022</div>
+
+            <div class="date bg-orange" style="background-color: #4b96f2">
+              <div class="date-day">16</div>
+              <div class="date-month">Tháng 5</div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="course-name">
+              Lộ trình đào tạo Lập trình di động iOS (3 tháng)
+            </div>
+
+            <div class="schedule">
+              <div class="day">
+                <i class="fa-solid fa-calendar-days"></i> Thứ 2 , 4, 6
+              </div>
+
+              <div class="time"><i class="fas fa-clock"></i> 18:30 - 21:00</div>
+
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i> Cơ sở Tố Hữu
+              </div>
+            </div>
+
+            <div class="register">Đăng ký</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="left">
+            <div class="year bg-red" style="background-color: #f89707">
+              2022
+            </div>
+
+            <div class="date bg-orange" style="background-color: #fbbc05">
+              <div class="date-day">10</div>
+              <div class="date-month">Tháng 5</div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="course-name">Khóa học Spring Boot - Web Back End</div>
+
+            <div class="schedule">
+              <div class="day">
+                <i class="fa-solid fa-calendar-days"></i> Thứ 3 , 7
+              </div>
+
+              <div class="time"><i class="fas fa-clock"></i> 18:30 - 21:00</div>
+
+              <div class="location">
+                <i class="fas fa-map-marker-alt"></i> Cơ sở Tố Hữu
+              </div>
+            </div>
+
+            <div class="register">Đăng ký</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="address">
+        <p>Cơ sở 1: Số 14, ngõ 4, Nguyễn Đình Chiểu, Hà Nội</p>
+
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7448.9533894391125!2d105.84651500000001!3d21.013604!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a3ebe79efa873b2!2sTechmaster!5e0!3m2!1svi!2sus!4v1651029985590!5m2!1svi!2sus"
+            width="400"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
