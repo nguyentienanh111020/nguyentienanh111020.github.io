@@ -3,51 +3,675 @@
     <meta charset="UTF-8" />
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+  />
+</head>
   <body>
-    <header>
-      <div class="navbar">
-        <div class="navbar-container">
-          <div class="navbar-header">
-            <div class="row">
-              <div class="col-2">
-            <div class="navbar-brand">
-              <a class="logo" href="/">
-                <img src="https://vuighe.net/assets/img/logo_v8.png" alt="VuiGhe.Net">
-              </a>
-            </div>
-            </div>
-            <div class="col-4">
-              <div class="navbar-item"><button>Anime</button></div>
-              <div class="navbar-item"><button>Movie</button></div>
-              <div class="navbar-item"><button>Tin tức</button></div>
-              <div class="navbar-item"><button>Truyện</button></div>
-              <div class="navbar-item"><button>BXH</button></div>
-            </div>
-            <div class="col-2">
-            <div class="navbar-user"> 
-              <div class="navbar-search">
-                <input type="text" name="" id="" placeholder="Tên anime">
-              </div>
-            </div>
+    <header class="header fixed">
+      <div class="container">
+        <div class="d-flex a-center">
+          <div class="logo-box">
+            <img src="https://vuighe.net/assets/img/logo_v8.png" alt="" />
           </div>
 
-          <div class="col-4-2">
-            <img src="image/menu.png" alt="">
-            <img src="image/user.png" alt="">
-            <img src="image/information.png" alt="">
+          <nav class="nav as-end">
+            <ul class="menu d-flex">
+              <li class="menu-item">
+                <a href="" class="menu-link">Anime</a>
+
+                <div class="sub-menu absolute">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <a href="#">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/27/2ceedf626b08fc77_8103ca39531bc17f_5068516536345127118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spriggan</div>
+                            </div>
+                            </div>
+                          </a>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/16/8ca16fa6be0a123f_333ae6da97358ada_4227516526877459118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Vampire in the Garden</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/14/34b2ee9ca5a17c55_0103e48989a34819_5267716524686427118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Isekai Meikyuu</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/13/96fb1a23e208aacd_069dc893cf26f99a_4414316523887036118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Yofukashi no Uta</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/10/bf5e1d49a6e65b9c_2aa357c8fdb78d78_4367116521719627118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Tensei Kenya</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/10/691749b6281b18d0_6df2acf58c9cc613_2537116521718196118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Sorademo Ayumu</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/09/597750eeb7258d44_286da1965ed416ca_4707816520995193118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Kokaku Kidoutai</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/05/06/bfd7d3a030d3f3e2_3ef55bc458355d2c_52259165185588889674.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Ai no tagoe</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Movie</a>
+
+                <div class="sub-menu absolute">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Tin tức</a>
+
+                <div class="sub-menu absolute">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">Truyện</a>
+
+                <div class="sub-menu absolute">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item">
+                <a href="" class="menu-link">BXH</a>
+
+                <div class="sub-menu absolute">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="sub-menu-item">
+                              <div class="thumbnail1">
+                              <img class="thumb1"
+                                src="https://s199.imacdn.com/vg/2022/03/21/9033666346a72bc2_d4267122238d3fb6_2660616478676412118684.jpg"
+                                alt=""
+                              />
+                              </div>
+                              <div class="description1">
+                                <div class="description-title1">Spy x Family</div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="search-box">
+            <form action="" class="search-form">
+              <div class="form-group relative">
+                <input
+                  class="input-search"
+                  type="text"
+                  placeholder="Tìm kiếm anime"
+                />
+
+                <button class="btn-search absolute">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </form>
+
+            <div class="search-results"></div>
           </div>
+
+          <div class="btn-actions">
+            <a href="" class="btn btn-policy"
+              ><i class="bi bi-info-circle-fill"></i
+            ></a>
+            <button class="btn btn-theme">
+              <i class="bi bi-brightness-low"></i>
+            </button>
+            <button class="btn btn-user">
+              <i class="bi bi-person-fill"></i>
+            </button>
           </div>
         </div>
       </div>
     </header>
 
-  <section class="anime-slide">
+  <section class="anime-slide" style="margin-top: 70px;">
     <div class="container">
       <div class="row">
       <div class="col-9">
         <a href="#">
-          <img src="https://s199.imacdn.com/vg/2022/03/24/4af060d567cdd37c_130287b1c0fd103b_2114241648099430361628.jpg" alt="" width="">
+          <img src="https://s199.imacdn.com/vg/2022/03/24/4af060d567cdd37c_130287b1c0fd103b_2114241648099430361628.jpg" alt="">
           <div class="description">
           <img src="image/play.png" width="55px" style="float: left; padding-right: 10px;">
             <div class="description-title">Aharen-san wa Hakarenai</div>
@@ -69,27 +693,23 @@
         </div>
         <div class="thumb-slides">
         <a href="#" class="thumb-slide">
-          <img src="https://s199.imacdn.com/vg/2022/03/20/5a14af1e19346a9a_e5ffac4950e075bc_19538516477838843118684.jpg" alt="">
+          <img src="https://s199.imacdn.com/vg/2022/03/23/178dac546a7d5c1a_4f76b1895239b273_22962416480417967118684.jpg" alt="">
         </a>
         </div>
       </div>
       </div>
+    </div>
+  </section>
 
-      <div class="row" style="margin-left: -10px;">
+  <section class="anime-slidee">
+  <div class="container">
+     <div class="row">
         <div class="anime-slides">
         <div class="col-3-1">
             <div class="thumb-slides">
               <a href="#" class="thumb-slide">
-                <img src="https://s199.imacdn.com/vg/2022/03/20/5a14af1e19346a9a_e5ffac4950e075bc_19538516477838843118684.jpg" alt=""
+                <img src="https://s199.imacdn.com/vg/2022/03/20/5a14af1e19346a9a_e5ffac4950e075bc_19538516477838843118684.jpg" alt="" 
                 >
-              </a>
-              </div>
-              </div>
-
-              <div class="col-3-1">
-              <div class="thumb-slides">
-              <a href="#" class="thumb-slide">
-                <img src="https://s199.imacdn.com/vg/2022/03/20/5a14af1e19346a9a_e5ffac4950e075bc_19538516477838843118684.jpg" alt="">
               </a>
               </div>
               </div>
@@ -103,13 +723,20 @@
               </div>
 
               <div class="col-3-1">
+              <div class="thumb-slides">
+              <a href="#" class="thumb-slide">
+                <img src="https://s199.imacdn.com/vg/2022/03/20/5a14af1e19346a9a_e5ffac4950e075bc_19538516477838843118684.jpg" alt="">
+              </a>
+              </div>
+              </div>
+
+              <div class="col-3-1">
                 <div class="thumb-slides">
                 <a href="#" class="thumb-slide">
-                  <img src="https://s199.imacdn.com/vg/2022/03/23/178dac546a7d5c1a_4f76b1895239b273_22962416480417967118684.jpg" alt="" >
+                  <img src="https://s199.imacdn.com/vg/2022/03/23/178dac546a7d5c1a_4f76b1895239b273_22962416480417967118684.jpg" alt="">
                 </a>
                 </div>
                 </div>
-    </div>
     </div>
     </div>
   </section>
@@ -200,8 +827,7 @@
             </div>
             </div>
           </div>
-      </div>
-    </section>
+      </section>
 
     <section class="anime-news">
       <div class="container">
@@ -672,6 +1298,10 @@
                 src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>
@@ -685,6 +1315,10 @@
                 src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>
@@ -698,6 +1332,10 @@
                 src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>
@@ -711,6 +1349,10 @@
                 src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>
@@ -724,6 +1366,10 @@
                 src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>
@@ -734,9 +1380,13 @@
               <a href="#">
               <div class="thumb-slides">
               <img class="thumb-slide"
-                src="https://s199.imacdn.com/tt24/2020/07/12/c8cd471104891776_75329ffd061157d8_265301594552686345957.jpg"
+                src="https://s199.imacdn.com/tt24/2020/03/06/8c6cd851932f7fbb_2016367a08c91763_32664158348037229674.jpg"
                 alt=""
               />
+              <div class="description">
+                <div class="description-title">World Trigger</div>
+                <div class="description-views">1m views</div>
+            </div>
             </div>
           </a>
           </div>

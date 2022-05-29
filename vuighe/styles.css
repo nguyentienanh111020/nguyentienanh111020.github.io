@@ -50,7 +50,8 @@ img {
 }
 
 .col-3-1 {
-  width: 24.66666%;
+  margin-left: -3px;
+  width: 25%;
   position: relative;
   display: inline-block;
 }
@@ -79,6 +80,8 @@ img {
 
 .col-8 {
   width: 66.666667%;
+  position: relative;
+  display: inline-block;
 }
 
 .col-9 {
@@ -103,6 +106,9 @@ section {
   margin-bottom: 60px;
 }
 
+.anime-slidee {
+  margin-top: -60px;
+}
 .section-header {
   margin-bottom: 10px;
   font-size: 24px;
@@ -163,6 +169,10 @@ section {
   font-size: 16px;
 }
 
+.cartoon {
+  border-radius: 30px 30px 10px 10px;
+  overflow: hidden;
+}
 .cartoon img {
   border-radius: 30px 30px 10px 10px;
 }
@@ -279,56 +289,200 @@ section {
   text-align: center;
 }
 
-.navbar {
-  background-color: #fff;
-  border: 0;
-  box-shadow: 0 0 1px 0 rgb(0 0 0 / 50%);
-  height: 60px;
-  left: 0;
-  min-height: 60px;
-  padding: 10px 0;
-  right: 0;
-  top: 0;
-  z-index: 1030;
-}
-
-.navbar-container {
-  position: relative;
-  padding: 0 10px;
-  width: 1300px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.navbar-brand .logo img {
-  height: 40px;
-}
-
-.navbar-user {
-  float: right;
-}
-
-.navbar-search {
-  float: right;
-  padding: 0;
-}
-
-.navbar-item button {
-  border-radius: 80px;
-  margin: 5px;
-  padding: 0 8px;
-  background-color: white;
-  border-color: whitesmoke;
-}
-
-.navbar-search input {
-  border-radius: 40px;
-  padding: 0 8px;
-}
-
 .col-4-2 img {
   width: 10%;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: end;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.a-start {
+  align-items: flex-start;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-end {
+  align-items: end;
+}
+
+.as-end {
+  align-self: flex-end;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.movie-meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Classes Utilities */
+.d-flex {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+}
+
+.header {
+  border-bottom: 1px solid rgb(172, 164, 164);
+  padding-top: 10px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-box {
+  max-width: 150px;
+  margin-right: 50px;
+}
+
+.menu {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.menu-link {
+  display: block;
+  color: black;
+  padding: 4px 10px;
+  text-decoration: none;
+  border: 1px solid rgb(172, 164, 164);
+  border-radius: 25px;
+}
+
+.btn-actions {
+  margin-left: auto;
+}
+
+.menu-item {
+  padding-bottom: 10px;
+  margin-right: 10px;
+  border-bottom: 0;
+}
+
+.menu-item:hover {
+  border: 1px solid rgb(172, 164, 164);
+  border-bottom: 0;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.menu-item:hover .menu-link {
+  border: 0;
+}
+
+.input-search {
+  width: 300px;
+  padding: 5px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid rgb(172, 164, 164);
+}
+
+.btn-search {
+  right: 8px;
+  top: 7px;
+  border: 0;
+  background-color: transparent;
+}
+
+.sub-menu {
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 100%;
+  background-color: white;
+  border-top: 1px solid rgb(207, 201, 201);
+  border-bottom: 1px solid rgb(172, 164, 164);
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-item:hover .sub-menu {
+  display: block;
+}
+
+.anime-news {
+  margin-top: 75px;
+}
+
+.btn-actions a {
+  width: 100000px;
+}
+
+.thumbnail1 {
+  overflow: hidden;
+}
+
+.thumb1 {
+  transition: all 0.2s linear;
+}
+
+.sub-menu-item:hover .thumb1 {
+  transform: scale(1.2);
+}
+
+.description-title1 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.sub-menu-item:hover .description-title1 {
+  color: red;
+}
+
+.description1 {
+  background: transparent;
+  background-image: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.9)
+  );
+  color: #eee;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  z-index: 1;
+  height: 50px;
+  padding: 40px 10px 22px;
+}
+
+.btn-actions i {
+  display: inline-block;
+  font-size: 2em;
+  padding: 10px;
 }
