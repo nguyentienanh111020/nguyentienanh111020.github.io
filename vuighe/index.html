@@ -8,6 +8,7 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
   />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="script.js">
 
 </head>
   <body>
@@ -17,19 +18,16 @@
           <div class="logo-box">
             <img src="https://vuighe.net/assets/img/logo_v8.png" alt="" />
           </div>
-          <div class="topnav" id="myTopnav">
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <div class="topnav" id="myTopnav" onclick="open()">
+          <a href="" class="icon">
             <i class="fa fa-bars"></i>
-            <div class="sub-menu1">
-              <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-              </ul>
-                 </div>
-           
           </a>
+            <div class="sub-menu1" id="subMenu">
+              <a href="">1</a>
+              <a href="">1</a>
+              <a href="">1</a>
+              <a href="">1</a>
+              </div>
         </div>
           <nav class="nav as-end">
             <ul class="menu d-flex">
@@ -1871,19 +1869,6 @@
             </div>
             </div>
       </section>
-
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          var y = document.getElementsByClassName('sub-menu1');
-          if (y.className === "sub-menu1") {
-            x.className += " responsive";
-          y.className+= 'responsive';
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
 
     </body>
 </html>

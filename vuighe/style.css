@@ -554,26 +554,20 @@ section {
     display: block;
   }
 }
-
+.topnav {
+  position: relative;
+}
 .sub-menu1 {
-  display: none;
+  position: absolute;
+  left: -350;
+  top: 0;
+  display: block;
+  background-color: red;
+  height: 100vh;
 }
 
 .topnav .icon {
   padding-right: 40px;
   padding-top: 15px;
   display: none;
-}
-@media screen and (max-width: 800px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .sub-menu1.responsive {
-    position: absolute;
-    left: 10;
-    top: 0;
-    display: block;
-    background-color: white;
-    width: 100%;
-  }
 }
