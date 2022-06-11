@@ -421,7 +421,7 @@ section {
   background-color: white;
   border-top: 1px solid rgb(207, 201, 201);
   border-bottom: 1px solid rgb(172, 164, 164);
-  display: none;
+  display: block;
   padding-top: 10px;
   padding-bottom: 10px;
 }

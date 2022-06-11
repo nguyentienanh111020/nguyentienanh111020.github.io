@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Builder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header fixed">
+      <div class="d-flex">
+        <div class="logo">
+          <img
+            src="https://static.careerbuilder.vn/themes/careerbuilder/img/logo.png"
+            alt=""
+          />
+        </div>
+        <div class="menu">
+          <ul class="menu-item d-flex">
+            <li>Tìm Việc Làm</li>
+            <li>CV Hay</li>
+            <li>VietnamSalary</li>
+            <li>CareerMap</li>
+            <li>Cẩm Nang</li>
+            <li>Tính Lương</li>
+          </ul>
+        </div>
+        <div class="user">
+          <ul class="menu-item d-flex">
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-bell"></span>
+              </a>
+            </li>
+            <li><i class="fa-solid fa-circle-user"></i>Đăng nhập</li>
+            <li>Đăng ký</li>
+            <li>VI</li>
+          </ul>
+        </div>
+        <div class="text">
+          <a href="#"
+            >Dành cho nhà tuyển dụng <br />
+            Đăng tuyển, Tìm ứng viên</a
+          >
+        </div>
+      </div>
+
+      <div class="contain">
+        <div class="search-bars d-flex">
+          <input type="text" name="" id="company" placeholder="Tên công ty" />
+
+          <div class="d-flex relative">
+            <input
+              type="text"
+              name="jobName"
+              id="jobName"
+              class="input1"
+              placeholder="Tất cả ngành nghề"
+            />
+            <div class="container1 absolute" id="1">
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> I have a bike</label>
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle2"
+                value="Car"
+              />
+              <label for="vehicle2"> I have a car</label>
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle3"
+                value="Boat"
+              />
+              <label for="vehicle3"> I have a boat</label>
+            </div>
+          </div>
+
+          <div class="d-flex relative">
+            <input
+              type="text"
+              name="city"
+              id="city"
+              class="input2"
+              placeholder="Tất cả địa điểm"
+            />
+            <div class="container2 absolute" id="2">
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> I have a bike</label>
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle2"
+                value="Car"
+              />
+              <label for="vehicle2"> I have a car</label>
+            </div>
+          </div>
+          <button type="submit" id="btn-search">
+            <i class="fa fa-search"></i>
+          </button>
+          <div class="filter">
+            <button type="submit" id="btn-filter">
+              <i class="fa fa-filter" style="font-size: 24px"></i>
+            </button>
+            <div class="container3 absolute" id="3">
+              <div class="row">
+                <div class="col-2">
+                  <label for="">Mức lương</label><br />
+                  <select name="" id="salary">
+                    <option value="">Tất cả</option>
+                    <option value="3.000.000d">3.000.000d</option>
+                    <option value="5.000.000d">5.000.000d</option>
+                    <option value="6.000.000d">6.000.000d</option>
+                    <option value="9.000.000d">9.000.000d</option>
+                  </select>
+                </div>
+                <div class="col-2">
+                  <label for="">Cấp bậc</label><br />
+                  <select name="" id="level">
+                    <option value="">Tất cả</option>
+                    <option value="student">Sinh viên</option>
+                    <option value="employee">Nhân viên</option>
+                  </select>
+                </div>
+                <div class="col-2">
+                  <label for="">Đăng trong vòng</label><br />
+                  <select name="" id="time">
+                    <option value="">Tất cả</option>
+                    <option value="3-days">3 ngày</option>
+                    <option value="1-week">1 tuần</option>
+                  </select>
+                </div>
+                <div class="col-2">
+                  <label for="">Hình thức việc làm</label><br />
+                  <select name="" id="status">
+                    <option value="">Tất cả</option>
+                    <option value="nhan-vien-chinh-thuc">
+                      Nhân viên chính thức
+                    </option>
+                    <option value="thoi-vu-tu-do">Thời vụ/Tự do</option>
+                  </select>
+                </div>
+                <div class="col-2">
+                  <label for="">Phúc lợi mong muốn</label><br />
+                  <select name="" id="benefit">
+                    <option value="">Tất cả</option>
+                    <option value="che-do-bao-hiem">Chế độ bảo hiểm</option>
+                    <option value="du-lich">Du lịch</option></select
+                  ><br />
+                  <button style="margin-left: 20px; margin-top: 10px">
+                    Tìm ngay
+                  </button>
+                  <button>Xóa bộ lọc</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="#"
+            style="padding-right: 10px; padding-left: 10px; padding-top: 10px"
+            >Work from home</a
+          >
+          <i class="fa-solid fa-toggle-off" style="font-size: 36px"></i>
+
+          <i
+            class="fa fa-list"
+            style="font-size: 36px; padding-left: 100px"
+          ></i>
+          <i class="fa fa-sort" style="font-size: 36px; padding-left: 30px"></i>
+        </div>
+      </div>
+    </header>
+    <section class="info">
+      <table>
+        <thead>
+          <tr>
+            <th>Job's Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+            <th>City</th>
+            <th>Level</th>
+            <th>Time</th>
+            <th>Employment</th>
+            <th>Benefit</th>
+          </tr>
+        </thead>
+        <tbody id="contentTable"></tbody>
+      </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

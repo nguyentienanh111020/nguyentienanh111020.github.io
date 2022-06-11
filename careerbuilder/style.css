@@ -1,0 +1,161 @@
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: end;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.a-start {
+  align-items: flex-start;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.a-end {
+  align-items: end;
+}
+
+.as-end {
+  align-self: flex-end;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: block;
+}
+.header {
+  border-bottom: 1px solid rgb(172, 164, 164);
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  padding-right: 80px;
+  padding-left: 20px;
+}
+
+.menu-item {
+  padding-right: 1px;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.menu-item li {
+  margin-right: 20px;
+}
+
+.user {
+  padding-left: 80px;
+}
+
+.user li {
+  border-right: 1px solid #e8e8e8;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.fa-solid.fa-circle-user {
+  justify-content: space-between;
+  width: 20px;
+}
+
+.text {
+  background-color: #202c42;
+  width: 195px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.contain {
+  padding-left: 40px;
+  background-color: rgb(240, 240, 240);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+input {
+  width: 350px;
+}
+
+.a {
+  margin-top: 1002px;
+}
+
+.container1 {
+  margin-top: 50px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container2 {
+  display: none;
+  margin-top: 50px;
+}
+
+.container3 {
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 100%;
+  background-color: white;
+  border-top: 1px solid rgb(207, 201, 201);
+  border-bottom: 1px solid rgb(172, 164, 164);
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  width: 20%;
+  position: relative;
+  display: inline-block;
+}
+
+select {
+  width: 60%;
+}
+
+.info {
+  margin-top: 200px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
