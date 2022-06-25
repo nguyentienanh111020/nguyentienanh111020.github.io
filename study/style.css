@@ -1,29 +1,84 @@
-.parent {
-  position: relative;
-  top: 200px;
-  left: 200px;
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  transform: rotate(45deg);
-}
-.child {
+.absolute {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  background-color: red;
-  border-radius: 50%;
 }
-.c1 {
-  top: -100px;
-}
-.c2 {
-  left: -100px;
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  align-items: center;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  transition: width 1s linear;
+.picture {
+  height: 58px;
+}
+
+.collapse.navbar-collapse {
+  justify-content: space-between;
+}
+
+.btn {
+  margin-left: 100px;
+  line-height: 42px;
+  padding: 0 20px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  color: white;
+  border: 1px solid lightcoral;
+  background-color: lightcoral;
+  transform: translateY(-5px);
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0;
+  display: inline-block;
+  line-height: 42px;
+}
+
+.nav-link:hover {
+  color: lightcoral;
+}
+
+.slide {
+  width: 100%;
+}
+
+.carousel-control-next {
+  border: 2px solid;
+  border-radius: 100%;
+  width: 68px;
+  height: 68px;
+  margin-top: 250px;
+  right: 50px;
+  transition: all 0.2s;
+}
+
+.carousel-control-next:hover {
+  background-color: #dc3545;
+  transform: translateX(30%);
+}
+
+.carousel-control-prev {
+  border: 2px solid;
+  border-radius: 100%;
+  width: 68px;
+  height: 68px;
+  margin-top: 250px;
+  left: 50px;
+  transition: all 0.2s;
+}
+
+.carousel-control-prev:hover {
+  background-color: #dc3545;
+  transform: translateX(-30%);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.container {
+  z-index: 1;
+  top: 0;
 }

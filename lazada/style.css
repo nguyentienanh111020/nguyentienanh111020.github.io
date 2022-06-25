@@ -54,3 +54,8 @@ body {
 .menu {
   position: relative;
 }
+
+.picture {
+  width: 1100px;
+  padding-top: 10px;
+}
